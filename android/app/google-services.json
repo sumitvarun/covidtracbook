@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1046094229426",
+    "firebase_url": "https://covidtracbook.firebaseio.com",
+    "project_id": "covidtracbook",
+    "storage_bucket": "covidtracbook.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1046094229426:android:11fa92080946a804be7eab",
+        "android_client_info": {
+          "package_name": "com.sumitvarun.covidtracbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1046094229426-a93tf90c9dj75fhp3dacp46hn6pd3jlu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sumitvarun.covidtracbook",
+            "certificate_hash": "203fad512c87a5aad4ff6e4aa03fe13d5c5e73e1"
+          }
+        },
+        {
+          "client_id": "1046094229426-gtkqncjh4hb6rvcjmn3fqsf7u6svfrhq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2henv1fOBFk6aO9-PxOdPx_2cmT-CoAE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1046094229426-gtkqncjh4hb6rvcjmn3fqsf7u6svfrhq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
