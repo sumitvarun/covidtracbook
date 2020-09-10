@@ -64,7 +64,7 @@ class _HomepageState extends State<Homepage> {
             ),
           ),
 
-          worldData==null?CircularProgressIndicator():WorldWidePanel(worldData: worldData,),
+          worldData==null?CircularProgressIndicator(backgroundColor: Colors.redAccent[400],):WorldWidePanel(worldData: worldData,),
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 10.0),
             child: Text('Daily Updates', style: TextStyle( fontSize: 22, fontWeight: FontWeight.bold),),
