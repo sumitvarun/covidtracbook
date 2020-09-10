@@ -57,23 +57,12 @@ class WorldWidePanel extends StatelessWidget {
             borderColor: Colors.brown[600],
             count: worldData['deaths'].toString(),
           ),
-          Container(
-            color: Colors.red[700],
-            child: PageView.builder(
-              scrollDirection: Axis.horizontal,
-              itemCount: 5,
-              itemBuilder: (context, index) => _builder(index),
-
-            ),
-          ),
         ],
       ),
     );
   }
 
-  _builder(int index) {
-    return Card();
-  }
+
 }
 
 class Statuspanel extends StatelessWidget {
@@ -111,25 +100,3 @@ class Statuspanel extends StatelessWidget {
   }
 }
 
-class Card extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      margin: EdgeInsets.all(10),
-      padding: EdgeInsets.symmetric(horizontal: 20, vertical: 15),
-      decoration: BoxDecoration(
-        color: Colors.blueAccent[700],
-        borderRadius: BorderRadius.circular(8.0)
-      ),
-      child: Center(
-        child: Text(
-          'Card',
-              style: TextStyle(
-            color: Colors.white,
-          fontSize: 20,
-        ),
-        ),
-      ),
-    );
-  }
-}

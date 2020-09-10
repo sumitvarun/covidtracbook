@@ -29,7 +29,7 @@ class StartingPage extends StatelessWidget {
 
 
 
-                SizedBox(height: 150,),
+                SizedBox(height: 100,),
                 OutlineButton(
                   borderSide: BorderSide(color: Colors.grey[400], width: 0.4),
                   padding: EdgeInsets.only(left: 22.0),
@@ -51,17 +51,7 @@ class StartingPage extends StatelessWidget {
                     Navigator.push(context, MaterialPageRoute(builder: (context)=>Homepage()));
                 },
                 ),
-                SizedBox(height: 20,),
-                Container(
-                  height: 100,
-                  color: Colors.grey[700],
-                  child: PageView.builder(
-                    scrollDirection: Axis.vertical,
-                    itemCount: 5,
-                    itemBuilder: (context ,index)  => _builder(index),
-                  ),
-                ),
-
+                SizedBox(height: 0,),
               ],
             ),
           ),
@@ -69,41 +59,9 @@ class StartingPage extends StatelessWidget {
     );
   }
 
-  _builder(int index) {
-    return CardSlider();
-  }
 }
 
-class CardSlider extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      margin: EdgeInsets.all(10.0),
 
-      padding: EdgeInsets.symmetric(horizontal: 20, vertical: 15),
-      decoration: BoxDecoration(
-        color: Colors.grey[400],
-        borderRadius: BorderRadius.circular(10.0),
-      ),
-      child: Column(
-        children: <Widget>[
-          Text(
-            'Confirmed Case',
-            style: TextStyle(
-              color: Colors.white,
-              fontSize: 18,
-            ),
-          ),
-          Text(
-            '123',
-            style: TextStyle(
-              color: Colors.grey[900],
-            ),
-          ),
-        ],
-      )
-    );
-  }
-}
+
 
 

@@ -28,7 +28,7 @@ dependencies:
   url_launcher: ^5.5.1
   shared_preferences: ^0.5.10
   http: ^0.12.2
-  carousel_slider: ^2.2.1
+
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -58,6 +58,7 @@ flutter:
     - lib/images/corona.png
     - lib/images/home.png
     - lib/images/vector1.png
+    - lib/images/733.jpg
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData(
         fontFamily: 'Circular',
-        primaryColor:   Colors.black,
+        primaryColor:   Colors.grey[700],
 
       ),
       title: 'Covidtracbook',

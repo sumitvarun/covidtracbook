@@ -2,8 +2,11 @@ import 'dart:convert';
 
 import 'package:covidtracbook/datasource.dart';
 import 'package:covidtracbook/panels/worldwidepanel.dart';
+import 'package:covidtracbook/question.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
+
+
 class Homepage extends StatefulWidget {
   @override
   _HomepageState createState() => _HomepageState();
@@ -18,6 +21,8 @@ class _HomepageState extends State<Homepage> {
       worldData = json.decode(response.body);
     });
   }
+
+
   @override
   void initState() {
     fetchWorldWideData();
@@ -48,19 +53,24 @@ class _HomepageState extends State<Homepage> {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: <Widget>[
                 Text('Worldwide', style: TextStyle(fontSize: 22,fontWeight: FontWeight.bold),),
-                Container(
+                FlatButton(
+                  color: Colors.grey[400],
                   padding: EdgeInsets.all(10.0),
-                    alignment: Alignment.topRight,
-                    decoration: BoxDecoration(
-                      color: primaryBlack,
-                      borderRadius: BorderRadius.circular(10.0)
-                    ),
-                    child: Text('Regional', style: TextStyle(fontSize: 15,fontWeight: FontWeight.bold,color: Colors.white,),)),
+                    onPressed: () {
+                      Navigator.push(context, MaterialPageRoute(builder: (context)=>questionAnswer()));
+                    }, child: Text('Help',style: TextStyle(color:Colors.grey[900],fontWeight: FontWeight.bold),),
+                ),
               ],
             ),
           ),
 
           worldData==null?CircularProgressIndicator():WorldWidePanel(worldData: worldData,),
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 10.0),
+            child: Text('Daily Updates', style: TextStyle( fontSize: 22, fontWeight: FontWeight.bold),),
+          ),
+
+
         ],
       ),
       ),
