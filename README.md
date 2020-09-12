@@ -6,11 +6,13 @@
 
 ## Getting Started
 A Covid 19 Case Tracker Application
+In Progress
 ### License
 
 sumitvarun/covidtracbook is licensed under the
 Apache License 2.0
 A permissive license whose main conditions require preservation of copyright and license notices. Contributors provide an express grant of patent rights. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
+
 
 #### ScreenShot
 ![screenshot_1](https://user-images.githubusercontent.com/52107131/93002685-50cfa700-f556-11ea-9fec-5cce288f8aef.png)
