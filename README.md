@@ -5,8 +5,7 @@
 
 
 ## Getting Started
-A Covid 19 Case Tracker Application
-In Progress
+A Covid 19 Case Tracker Application (In Progress)
 ### License
 
 sumitvarun/covidtracbook is licensed under the
