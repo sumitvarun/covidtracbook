@@ -14,11 +14,7 @@ A permissive license whose main conditions require preservation of copyright and
 
 
 #### ScreenShot
-![screenshot_1](https://user-images.githubusercontent.com/52107131/93002685-50cfa700-f556-11ea-9fec-5cce288f8aef.png)
-![screenshot_2](https://user-images.githubusercontent.com/52107131/93002693-5f1dc300-f556-11ea-82ac-035024b7139d.png)
-![screenshot_3](https://user-images.githubusercontent.com/52107131/93002698-6349e080-f556-11ea-9dc8-b80e9f890e45.png)
-![screenshot_4](https://user-images.githubusercontent.com/52107131/93002701-6775fe00-f556-11ea-8654-28485e68b056.png)
-
-
-
+![screenshot_1](https://user-images.githubusercontent.com/52107131/95053954-c15d8400-070e-11eb-90ce-10762301e63c.png)
+![screenshot_2](https://user-images.githubusercontent.com/52107131/95053984-cc181900-070e-11eb-97e2-97e9ed057d76.png)
+![screenshot_3](https://user-images.githubusercontent.com/52107131/95054001-d20dfa00-070e-11eb-81b0-56e8a635ffa3.png)
 
