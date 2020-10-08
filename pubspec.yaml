@@ -28,6 +28,7 @@ dependencies:
   url_launcher: ^5.5.1
   shared_preferences: ^0.5.10
   http: ^0.12.2
+  carousel_pro: ^1.0.0
 
 
 
@@ -59,6 +60,9 @@ flutter:
     - lib/images/home.png
     - lib/images/vector1.png
     - lib/images/733.jpg
+    - lib/assets/covid_2.jpg
+    - lib/assets/people_covid.jpg
+    - lib/assets/Tips Mencegah Virus Covid-19.jpg
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

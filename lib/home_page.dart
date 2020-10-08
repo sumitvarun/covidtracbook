@@ -1,10 +1,12 @@
 import 'dart:convert';
 
+import 'package:carousel_pro/carousel_pro.dart';
 import 'package:covidtracbook/datasource.dart';
 import 'package:covidtracbook/panels/worldwidepanel.dart';
 import 'package:covidtracbook/question.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
+
 
 
 class Homepage extends StatefulWidget {
@@ -69,6 +71,19 @@ class _HomepageState extends State<Homepage> {
             padding: const EdgeInsets.symmetric(horizontal: 10.0),
             child: Text('Daily Updates', style: TextStyle( fontSize: 22, fontWeight: FontWeight.bold),),
           ),
+
+          SizedBox(
+            height: 154.0,
+            child: Carousel(
+              images: [
+                AssetImage("lib/assets/covid_2.jpg"),
+                AssetImage("lib/assets/people_covid.jpg"),
+                AssetImage("lib/assets/Tips Mencegah Virus Covid-19.jpg"),
+                AssetImage("lib/assets/covid_2.jpg"),
+
+              ],
+            ),
+          )
 
 
         ],
