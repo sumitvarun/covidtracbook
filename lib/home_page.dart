@@ -69,17 +69,21 @@ class _HomepageState extends State<Homepage> {
           worldData==null?CircularProgressIndicator(backgroundColor: Colors.redAccent[400],):WorldWidePanel(worldData: worldData,),
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 10.0),
-            child: Text('Daily Updates', style: TextStyle( fontSize: 22, fontWeight: FontWeight.bold),),
+            child: Text('Daily Updates', style: TextStyle( fontSize: 22, fontWeight: FontWeight.bold,color: Colors.pink[800], backgroundColor: Colors.orangeAccent,),),
           ),
 
           SizedBox(
             height: 154.0,
             child: Carousel(
               images: [
-                AssetImage("lib/assets/covid_2.jpg"),
+                AssetImage("lib/assets/covid1.jpeg"),
                 AssetImage("lib/assets/people_covid.jpg"),
                 AssetImage("lib/assets/Tips Mencegah Virus Covid-19.jpg"),
                 AssetImage("lib/assets/covid_2.jpg"),
+                AssetImage("lib/assets/covid3.jpg"),
+                AssetImage("lib/assets/covid4.jpg"),
+                AssetImage("lib/assets/covid5.jpg"),
+                AssetImage("lib/assets/HandSanitizerMask.jpg"),
 
               ],
             ),

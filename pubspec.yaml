@@ -60,7 +60,12 @@ flutter:
     - lib/images/home.png
     - lib/images/vector1.png
     - lib/images/733.jpg
+    - lib/assets/covid5.jpg
+    - lib/assets/covid4.jpg
+    - lib/assets/covid3.jpg
     - lib/assets/covid_2.jpg
+    - lib/assets/covid1.jpeg
+    - lib/assets/HandSanitizerMask.jpg
     - lib/assets/people_covid.jpg
     - lib/assets/Tips Mencegah Virus Covid-19.jpg
   #   - images/a_dot_ham.jpeg
