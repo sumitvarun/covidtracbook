@@ -25,6 +25,18 @@ class DataSource{
     {
       'question': 'what is a corona virus?',
       'answer': 'A novel coronavirus is a new coronavirus that has not been previously identified. The virus causing coronavirus disease 2019 (COVID-19), is not the same as the coronaviruses that commonly circulate among humans and cause mild illness, like the common cold.'
-    }
+    },
+    {
+      'question': 'what is a corona virus?',
+      'answer': 'A novel coronavirus is a new coronavirus that has not been previously identified. The virus causing coronavirus disease 2019 (COVID-19), is not the same as the coronaviruses that commonly circulate among humans and cause mild illness, like the common cold.'
+    },
+    {
+      'question': 'what is a corona virus?',
+      'answer': 'A novel coronavirus is a new coronavirus that has not been previously identified. The virus causing coronavirus disease 2019 (COVID-19), is not the same as the coronaviruses that commonly circulate among humans and cause mild illness, like the common cold.'
+    },
+    {
+      'question': 'what is a corona virus?',
+      'answer': 'A novel coronavirus is a new coronavirus that has not been previously identified. The virus causing coronavirus disease 2019 (COVID-19), is not the same as the coronaviruses that commonly circulate among humans and cause mild illness, like the common cold.'
+    },
   ];
 }

@@ -14,15 +14,16 @@ class questionAnswer extends StatelessWidget {
           backgroundColor: Colors.grey[700],
           title: Text('Covidtracbook'),
         ),
-        body: SingleChildScrollView(child: Column(crossAxisAlignment: CrossAxisAlignment.start,children: <Widget>[
-          Container(
-            height: 50,
-            alignment:  Alignment.center,
-            padding: EdgeInsets.all(10.0),
-            color: Colors.orangeAccent,
-            child: Text(DataSource.quote,style: TextStyle(color: Colors.deepOrange, fontWeight: FontWeight.bold,fontSize: 12),),
-          ),
-        ],),)
+        body: Container(
+          color: Colors.grey[900],
+          child: ListView.builder(
+                itemCount:  List(8).length,
+              itemBuilder: (context,index){
+            return ExpansionTile(title: Text(DataSource.questionAnswer[index]["question"],style: TextStyle(color: Colors.grey[100]),),children: [
+              Text(DataSource.questionAnswer[index]['answer'],style: TextStyle(color: Colors.white70),)
+            ],);
+          }),
+        )
       ),
     );
   }
