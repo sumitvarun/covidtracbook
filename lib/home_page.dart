@@ -56,11 +56,11 @@ class _HomepageState extends State<Homepage> {
               children: <Widget>[
                 Text('Worldwide', style: TextStyle(fontSize: 22,fontWeight: FontWeight.bold),),
                 FlatButton(
-                  color: Colors.grey[400],
+                  color: Colors.grey[800],
                   padding: EdgeInsets.all(10.0),
                     onPressed: () {
                       Navigator.push(context, MaterialPageRoute(builder: (context)=>questionAnswer()));
-                    }, child: Text('Help',style: TextStyle(color:Colors.grey[900],fontWeight: FontWeight.bold),),
+                    }, child: Text('Help',style: TextStyle(color:Colors.grey[300], fontFamily: 'Circular',fontWeight: FontWeight.w600),),
                 ),
               ],
             ),

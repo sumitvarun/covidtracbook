@@ -85,11 +85,18 @@ flutter:
     - family: circular
       fonts:
         - asset: lib/fonts/CircularAir-Light.ttf
-        #- asset: fonts/Schyler-Italic.ttf
-          #style: light
-    
-    
-    
+    - family: Exo2
+      fonts:
+        - asset: lib/fonts/Exo2-Light.ttf
+    - family: Mojita
+      fonts:
+        - asset: lib/fonts/Mojita.ttf
+    - family: Pacifico
+      fonts:
+        - asset: lib/fonts/Pacifico-Regular.ttf
+
+
+
     
     
 

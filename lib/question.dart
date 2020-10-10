@@ -15,12 +15,12 @@ class questionAnswer extends StatelessWidget {
           title: Text('Covidtracbook'),
         ),
         body: Container(
-          color: Colors.grey[900],
+          color: Colors.white,
           child: ListView.builder(
                 itemCount:  List(8).length,
               itemBuilder: (context,index){
-            return ExpansionTile(title: Text(DataSource.questionAnswer[index]["question"],style: TextStyle(color: Colors.grey[100]),),children: [
-              Text(DataSource.questionAnswer[index]['answer'],style: TextStyle(color: Colors.white70),)
+            return ExpansionTile(title: Text(DataSource.questionAnswer[index]["question"],style: TextStyle(color: Colors.grey[900],fontFamily: 'Circular',fontWeight: FontWeight.bold),),children: [
+              Text(DataSource.questionAnswer[index]['answer'],style: TextStyle(color: Colors.grey[900],fontFamily: 'Circular',fontWeight: FontWeight.w500),)
             ],);
           }),
         )

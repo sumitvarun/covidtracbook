@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 Color primaryBlack = Color(0xff202c3b);
 
 class DataSource{
-  static String quote = 'nothing in life is to be feared, it is only to be understood. Now is the time to understood more, so that we may fear less';
+  static String quote = 'You don’t need to know the whole alphabet of Safety. The A, B, C of it will save you if you follow it: Always Be Careful.';
   static List questionAnswer = [
     {
       'question': 'what is a corona virus?',
