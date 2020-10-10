@@ -69,7 +69,18 @@ class _HomepageState extends State<Homepage> {
           worldData==null?CircularProgressIndicator(backgroundColor: Colors.redAccent[400],):WorldWidePanel(worldData: worldData,),
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 10.0),
-            child: Text('Daily Updates', style: TextStyle( fontSize: 22, fontWeight: FontWeight.bold,color: Colors.pink[800], backgroundColor: Colors.orangeAccent,),),
+            child: Container(decoration: BoxDecoration(
+              color: Colors.yellow[800],border: Border.all(color: Colors.orange[400]),
+            ),
+                child: Row(
+                  children: [
+                    Padding(padding: EdgeInsets.all(4.0)),
+                    Icon(Icons.auto_stories,color: Colors.deepOrange,),
+                    Padding(padding: EdgeInsets.all(5.0)),
+                    Text('Daily Updates', style: TextStyle( fontSize: 22,color: Colors.black,fontFamily: 'Circular',fontWeight: FontWeight.w400),),
+
+                  ],
+                )),
           ),
 
           SizedBox(
