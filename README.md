@@ -4,14 +4,23 @@
 [![GitHub forks](https://img.shields.io/github/forks/sumitvarun/covidtracbook?color=%231B5E20)](https://github.com/sumitvarun/covidtracbook/network)
 [![GitHub issues](https://img.shields.io/github/issues/sumitvarun/covidtracbook?color=%234A148C)](https://github.com/sumitvarun/covidtracbook/issues)
 
+
+
 # Covidtracbook
 
 
 <a href="https://galaxy.store/Co123vid"><img src="https://img.samsungapps.com/seller/images/badges/galaxyStore/png_big/GalaxyStore_English.png?ver=1599637432000" alt="Available on Samsung Galaxy Store" style="max-width: 100%; height: auto;"></a>
 
 
+![image1](https://user-images.githubusercontent.com/52107131/95674550-9cfe1d80-0bce-11eb-936b-9237421f7dd1.jpeg)
+
+
+
+
+
 
 ## Getting Started
+
 A Covid 19 Case Tracker Application.
 ### License
 
