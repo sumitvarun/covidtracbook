@@ -4,7 +4,7 @@
 [![GitHub forks](https://img.shields.io/github/forks/sumitvarun/covidtracbook?color=%231B5E20)](https://github.com/sumitvarun/covidtracbook/network)
 [![GitHub issues](https://img.shields.io/github/issues/sumitvarun/covidtracbook?color=%234A148C)](https://github.com/sumitvarun/covidtracbook/issues)
 
-# covidtracbook
+# Covidtracbook
 
 
 <a href="https://galaxy.store/Co123vid"><img src="https://img.samsungapps.com/seller/images/badges/galaxyStore/png_big/GalaxyStore_English.png?ver=1599637432000" alt="Available on Samsung Galaxy Store" style="max-width: 100%; height: auto;"></a>
