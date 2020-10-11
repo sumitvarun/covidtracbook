@@ -1,10 +1,10 @@
 
 
 # covidtracbook
-[![GitHub license](https://img.shields.io/github/license/sumitvarun/covidtracbook?color=%23E91E63)](https://github.com/sumitvarun/covidtracbook/blob/master/LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/sumitvarun/covidtracbook?color=%23F9A825)](https://github.com/sumitvarun/covidtracbook/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/sumitvarun/covidtracbook?color=%232E7D32)](https://github.com/sumitvarun/covidtracbook/network)
-[![GitHub issues](https://img.shields.io/github/issues/sumitvarun/covidtracbook?color=%23673AB7)](https://github.com/sumitvarun/covidtracbook/issues)
+![screenshot_1 (1)](https://user-images.githubusercontent.com/52107131/95673168-0cbadb00-0bc4-11eb-87db-56dde49051ab.png)
+![screenshot_2](https://user-images.githubusercontent.com/52107131/95673169-0fb5cb80-0bc4-11eb-922b-d434c721879b.png)
+![screenshot_3](https://user-images.githubusercontent.com/52107131/95673170-12b0bc00-0bc4-11eb-91a3-b411843a407f.png)
+![screenshot_4](https://user-images.githubusercontent.com/52107131/95673174-15131600-0bc4-11eb-90bc-f5287cf165c4.png)
 
 
 
