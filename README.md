@@ -13,6 +13,8 @@
 <a href="https://galaxy.store/Co123vid"><img src="https://img.samsungapps.com/seller/images/badges/galaxyStore/png_big/GalaxyStore_English.png?ver=1599637432000" alt="Available on Samsung Galaxy Store" style="max-width: 100%; height: auto;"></a>
 
 
+
+
 ![image1](https://user-images.githubusercontent.com/52107131/95674550-9cfe1d80-0bce-11eb-936b-9237421f7dd1.jpeg)
 
 
@@ -28,6 +30,9 @@ A Covid 19 Case Tracker Application.
 sumitvarun/covidtracbook is licensed under the
 Apache License 2.0
 A permissive license whose main conditions require preservation of copyright and license notices. Contributors provide an express grant of patent rights. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
+
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://dart.dev" target="_blank"> <img src="https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg" alt="dart" width="40" height="40"/> </a> <a href="https://flutter.dev" target="_blank"> <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/> </a> </p>
 
 
 #### ScreenShot
