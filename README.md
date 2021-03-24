@@ -36,9 +36,10 @@ A permissive license whose main conditions require preservation of copyright and
 
 
 #### ScreenShot
-![screenshot_1 (1)](https://user-images.githubusercontent.com/52107131/95673168-0cbadb00-0bc4-11eb-87db-56dde49051ab.png)
-![screenshot_2](https://user-images.githubusercontent.com/52107131/95673169-0fb5cb80-0bc4-11eb-922b-d434c721879b.png)
-![screenshot_3](https://user-images.githubusercontent.com/52107131/95673170-12b0bc00-0bc4-11eb-91a3-b411843a407f.png)
-![screenshot_4](https://user-images.githubusercontent.com/52107131/95673174-15131600-0bc4-11eb-90bc-f5287cf165c4.png)
+
+<img src = "https://user-images.githubusercontent.com/52107131/95673168-0cbadb00-0bc4-11eb-87db-56dde49051ab.png" height= 150px>
+<img src = "https://user-images.githubusercontent.com/52107131/95673169-0fb5cb80-0bc4-11eb-922b-d434c721879b.png" height= 150px>
+<img src = "https://user-images.githubusercontent.com/52107131/95673170-12b0bc00-0bc4-11eb-91a3-b411843a407f.png" height= 150px>
+<img src = "https://user-images.githubusercontent.com/52107131/95673174-15131600-0bc4-11eb-90bc-f5287cf165c4.png" height= 150px>
 
 
